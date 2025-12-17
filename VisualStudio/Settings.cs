@@ -34,9 +34,9 @@ namespace Bountiful_Foraging
         public bool noNest = false;
 
         [Name("Nest Spawn Chance")]
-        [Description("Tweaks the chance of fir cones spawn. Fir cones are part of the sticks spawners. Default 15%")]
+        [Description("Tweaks the chance of nests spawn. Nests are part of the sticks spawners. Default 0.06%")]
         [Slider(0f, 1f, 30)]
-        public float coneChance = 0.06f;
+        public float nestChance = 0.06f;
 
         [Name("Disable Fir Cones")]
         [Description("Prevents fir cones from spawning. Default = No")]
