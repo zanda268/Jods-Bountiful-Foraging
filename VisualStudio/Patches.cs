@@ -249,7 +249,7 @@ namespace Bountiful_Foraging
                 {
                     if (__instance != null && __instance.name.Contains("RadialSpawn_sticks") && BFUtils.nest != null)
                     {
-                        if (Utils.RollChance(Settings.instance.nestChance))
+                        if (Utils.RollChance(Settings.instance.nestChance/10)) //Setting is multiplied by 10 to see precision on slider.
                         {
                             __result = BFUtils.nest;
                         }
